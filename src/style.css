@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 0.5em;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+section {
+    width: 70%;
+    margin: 0 auto;
+    padding: 4em 0;
+}
+
+h2, h3 {
+    color: #111;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+}
+
+#about img {
+    border-radius: 20px;
+    margin: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.05);
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 1.5em auto;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+a:hover {
+    border-bottom: 1px solid #000;
+}
+
+/* Connect Buttons */
+.connect-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.connect-buttons div {
+    margin: 0 10px;
+}
+
+.connect-buttons a {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.connect-buttons a:hover {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+}
+
+.connect-buttons svg {
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: white;
+    border-top: 1px solid #eee;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    #about img {
+        width: 80%;
+    }
+}
